@@ -3,7 +3,7 @@
 title: Alex Motamed
 locale: en_US
 description: A blog of my data science journey.
-logo: site-logo.png
+logo: site-logo.jpg
 search: true
 url: https://avmotamed.github.io/blog
 
@@ -44,7 +44,7 @@ owner:
   facebook: #username
   github: avmotamed
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: avmotamed@gmail.com
+  linkedin: amotamed
   instagram: #username
   flickr: #username
   tumblr: #username
