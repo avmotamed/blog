@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "GA Project 2 - Fun with Python Classes"
+date:   2016-12-29 10:58:33 -0500
+categories: ga project
+---
+## Online Store Manager - Working With Classes
+
+Just two weeks into the GA Data Science Immersive program, and we are already well on our way to building a firm foundation to build our analytical toolset. In addition to going through Measure Theory and Indicator Functions, and their use in programmatically integrating functions, we have been expanding our toolkit with some of the basic toolkits (numpy, matplotlib, pandas, and scipy). This project, given in our second week, is intended to deepen our understanding of the use of Classes in OOP.
+
+### Summary
+The aim of the Online Store Manager project is to create the backbone of an online store management system, along the lines of Weebly.com, where individual vendors can set up their own independent web store.
+
+The goal is to set up a store category where the inventory types (e.g. Action Figures, Building Blocks, Toy Cars) can be established for a store category (e.g. Toy Store). From this, individual stores can then be created that will have their own individual inventory, which fits into inventory type categories allowed, and their own customer lists and management systems.
+
+### Method
+The basic layout of the relationships involved in the interactions is shown below.
+
+![System Layout]({{ site.baseurl }}/images/Project-02-image1.png "System Overview")
+
+The store creation process starts with creating an object using the OnlineStoreManager() class, with the arguments for the class being the list of inventory types allowed for individual stores.
+
+The objects of this class then have a method to create individual stores with the only argument being the name – the inventory type restrictions are imbedded in the object and passed down to the individual stores. This method tracks the names and count of the stores created of this type (e.g. Toy Store).
+
+The individual stores are objects of a new class (Stores), which have to be able to add and track inventory as well as customers and transactions. Dictionaries were used for both customers and inventory, as data across individual stores was not to be shared, so the functionality remains in the Store class object.
+
+The use of dictionaries facilitated the tracking, and reporting of, inventory and enabled the storage of customer transactions tied to each individual customer. The methods with the Store class enable adding new inventory, recording transactions, as well as adding customers and recording transactions. Outside of the class, a function was created to enable the store to print summaries of Inventory and customer transactions. This last step did not work inside the store class, as the self-referential nature of printing function for dictionaries within dictionaries does not play well as a class method.
+
+The table below shows the basic structure of the classes used:
+
+![Classes & Objects]({{ site.baseurl }}/images/Project-02-image2.png "Classes and Objects")
+
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
