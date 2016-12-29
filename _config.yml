@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Blog under construction
 locale: en_US
-description: Describe your website here.
+description: This will be a blog of my data science journey.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: https://avmotamed.github.io/blog/
 
 # Jekyll configuration
 
