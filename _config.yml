@@ -37,7 +37,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Alex Motamed
-  avatar: bio-photo.jpg
+  avatar: alex.jpg
   email: avmotamed@mail.com
   disqus-shortname:
   twitter: #username
