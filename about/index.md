@@ -10,5 +10,4 @@ image:
 ---
 
 I just wanted a place to document some of my work as I take my mixing of data
-wrangling and technology to the next level by first delving into Python, Bayesian
-analysis, and all the fun toolkits that go along with that.
+wrangling and technology to the next level by expanding my knowledge of Python and all the fun toolkits that go along with it, as well as diving into Bayesian analysis.
