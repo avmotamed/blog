@@ -286,7 +286,7 @@ span + .entry-title {
 
     &:hover,
     &:focus {
-      background: lighten($border-color,5);
+      background: lighten($border-color,25);
     }
   }
 }
