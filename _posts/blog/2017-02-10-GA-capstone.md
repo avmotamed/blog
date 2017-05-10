@@ -7,7 +7,7 @@ excerpt:
 tags: []
 image:
   feature:
-date: 2017-02-10T08:08:50-04:00
+date: 
 ---
 
 # ***Predicting Recommended Content Selection***
